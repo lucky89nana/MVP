@@ -1,4 +1,4 @@
 module.exports = {
   alphavantage: alphavantageAPIKEY,
-  newsapi: newsapiAPIKEY,
+  newsapi: newsapiKEY,
 };
