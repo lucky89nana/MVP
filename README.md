@@ -17,10 +17,35 @@ https://user-images.githubusercontent.com/98575125/177029045-0cfff57d-2ec1-4aeb-
 
  - Analyze the latest stock trend.
 
-## Getting Started 
- - Get API keys needed from `config.example.js`.
- - Copy `config.example.js`, rename it to `config.js`, and enter your API token.
- - Run `npm install` to install dependencies.
- - Run `npm run start` to start Node.
- - Run `npm run react-dev` to start Webpack.
- - Navigate to `localhost:3000`
+## Installation
+
+
+To get a local copy up and running follow these simple steps:
+###### Pre-Installation Requirements
+    Node v14.15.1
+    NPM v6.14.11
+###### Instructions
+1. Clone the repo
+   ```sh
+   git clone https://github.com/lucky89nana/To-the-Moon.git
+   ```
+2. Acquire personal access token to acquire access to the APIs. Insert token into example.config.js and rename file to 
+   ```sh
+   config.js
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+    ```
+3. Compile Webpack
+   ```sh
+   npm run react-dev
+    ```
+4. Start the server
+   ```sh
+   npm run start
+    ```
+5. Navigate to 
+   ```sh
+   localhost:3000
+   ```
