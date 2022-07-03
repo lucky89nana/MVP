@@ -2,6 +2,17 @@
 
 Full stack development of stock market investment planning application utilizing AlphaVantage API and newsAPI.
 
+## Demo
+https://www.youtube.com/watch?v=U8dUMmlwznw
+
+## Features
+-Add and remove your favorite stocks to your watch list.
+
+-Read the latest news on the stock you searched!
+
+-Analyze the latest stock trend.
+
+
 ## Getting Started <a name="setup"></a>
 1. Get API keys needed from configExample.js.
 2. Copy `configExample.js`, rename it to `config.js`, and enter your Github token.
