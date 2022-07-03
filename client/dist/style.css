@@ -1,0 +1,297 @@
+.main {
+  background-color: rgb(251, 251, 251);
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Cormorant Garamond";
+  margin-bottom: 0;
+}
+
+h1 {
+  cursor: pointer;
+}
+
+.loadingDiv {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.loading {
+  font-size: 5vh;
+  font-family: "Alata", sans-serif;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/*****************************/
+/* HEADER */
+/*****************************/
+
+.topBar {
+  background-color: 3b5998;
+  top: 0;
+  height: 14vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.title {
+  color: beige;
+  font-family: "Cormorant Garamond";
+  font-size: 10vh;
+  margin-top: 0;
+  padding-left: 2.5vw;
+  letter-spacing: 0.25vw;
+}
+
+.searchBar {
+  padding: 0.5vw 1vw;
+  width: 10vw;
+  font-size: 2vh;
+}
+
+.searchButton {
+  padding: 0.5vw 1vw;
+  width: 3.5vw;
+  margin-left: 1vw;
+  font-size: 2vh;
+}
+
+.watchListButton {
+  padding: 0.5vw 1vw;
+  width: auto;
+  margin-left: 1vw;
+  margin-right: 5vw;
+  font-size: 2vh;
+}
+
+button {
+  cursor: pointer;
+}
+
+/*****************************/
+/* Left & Right Portion */
+/*****************************/
+
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25vw;
+  margin-left: 5vw;
+  margin-top: 10vh;
+  max-height: fit-content;
+  overflow-y: auto;
+}
+
+.middleContainer {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  margin-right: 5vw;
+  margin-top: 10vh;
+  align-items: baseline;
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  margin-right: 5vw;
+  margin-top: 10vh;
+  align-items: baseline;
+}
+
+/*****************************/
+/* Reddit & Chart */
+/*****************************/
+
+.topContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 8vh;
+  width: 100%;
+  height: 70vh;
+}
+
+h6 {
+  font-size: 1.7vh;
+  margin: 0;
+}
+
+.redditList {
+  width: 25vw;
+  height: 50vh;
+  margin-left: 3vw;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden !important;
+  background-color: color;
+}
+
+img {
+  width: 90%;
+  position: sticky;
+  top: 0;
+  background-color: beige;
+  z-index: 2;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wallStreetBets {
+  object-fit: cover;
+}
+
+.redditPost {
+  padding-top: 0.5vh;
+  padding-bottom: 2vh;
+  position: relative;
+}
+
+.redditPostDate {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.redditPostAuthor {
+  font-size: 2vh;
+  padding-bottom: 0.05vh;
+}
+
+.redditPostTitle,
+.tickerSymbolTitle {
+  font-size: 1.8vh;
+  padding-bottom: 0.05vh;
+}
+
+.redditPostText,
+.tickerSymbolText {
+  font-size: 1.6vh;
+  padding-bottom: 0.05vh;
+}
+
+.tickerSymbolText,
+.tickerSymbolTitle {
+  color: red;
+}
+
+.chart {
+  margin-top: 5vh;
+  width: 45vw;
+  max-height: 80vh;
+  margin-left: 2.5vw;
+}
+
+.noChart {
+  font-size: 12vh;
+}
+
+/*****************************/
+/* News */
+/*****************************/
+
+/* .newsContainer {
+  overflow-y: auto;
+  min-height: 100px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.newsList {
+  margin-top: 5vh;
+}
+
+.newsPost {
+  width: 50vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-bottom: 2vh;
+}
+
+.newsPhoto {
+  width: 50vw;
+  height: auto;
+  object-fit: fill;
+} */
+
+br {
+  margin-bottom: 2vh;
+}
+
+a {
+  font-size: 4vh;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.watchList {
+  margin-top: 5vh;
+  width: 90%;
+  height: 40vh;
+  font-size: 2.5vh;
+}
+
+.watchPost {
+  font-size: 2vh;
+}
+
+/*****************************/
+/* Table */
+/*****************************/
+
+thead,
+tfoot {
+  background-color: #c2c2c2;
+  color: #fff;
+}
+
+tbody {
+  background-color: #f0f0eb;
+}
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200, 200, 200);
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+}
+
+td,
+th {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 5px 10px;
+}
+
+td {
+  text-align: center;
+}
+
+tr {
+  font-size: 1.5vh;
+  cursor: pointer;
+}
