@@ -3,7 +3,8 @@
 Full stack development of stock market investment planning application utilizing AlphaVantage API and newsAPI.
 
 ## Demo
-https://www.youtube.com/watch?v=U8dUMmlwznw
+
+https://user-images.githubusercontent.com/98575125/177029045-0cfff57d-2ec1-4aeb-a12e-7f0dc299c849.mp4
 
 ## Features
 -Add and remove your favorite stocks to your watch list.
